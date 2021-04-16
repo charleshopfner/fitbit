@@ -1,0 +1,47 @@
+.ProductDescription {
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+  }
+  
+  .ProductLogo {
+    width: 80px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  .SelectedProductLogo {
+    border: 2px solid teal;
+  }
+  
+  .FeatureItem {
+    min-width: 80px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer;
+    box-sizing: content-box;
+    padding: 12px 24px;
+    margin: 10px;
+    font-weight: 600;
+  }
+  
+  .FeatureItem:active, .ProductLogo:active {
+    transform: scale(0.97);
+  }
+  
+  .SelectedFeatureItem {
+    color: white;
+    background-color: grey;
+  }
+  
+  .BuyItem {
+    background-color: teal;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }

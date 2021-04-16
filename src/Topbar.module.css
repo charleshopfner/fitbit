@@ -1,0 +1,11 @@
+.topbar {
+    background-color: black;
+    height: 60px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+    margin-top: 10px;
+}

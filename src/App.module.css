@@ -1,0 +1,7 @@
+.Product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
